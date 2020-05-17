@@ -1,0 +1,24 @@
+{
+  "name": "aho-corasick-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/benchmark": "^1.0.33",
+    "@types/chance": "^1.1.0",
+    "@types/yargs": "^15.0.5",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "@tanishiking/aho-corasick": "^0.0.1",
+    "benchmark": "^2.1.4",
+    "chance": "^1.1.5",
+    "yargs": "^15.3.1"
+  }
+}
